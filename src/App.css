@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.headerBackground {
+  background-color: black;
+}
+.oneNumberLine {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.twoNumberLine {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.divider-separator {
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divider {
+  text-align: left;
+  background-color: aqua;
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  color: rgb(255, 255, 255);
+}
+.thirdNumberLine {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5em;
+  letter-spacing: -0.5px;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: 600;
+}
+.headerImage {
+  max-width: 100%;
+  opacity: 1;
+  border-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerImage img {
+  vertical-align: middle;
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading-title {
+  color: #54595f;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.buttonMore {
+  border: 1px solid black;
+  background-color: #23a455;
+  padding: 17px 40px;
   color: white;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.buttonMore:hover {
+  text-decoration: none;
+  color: "red";
+}
+.oneStopLine1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
 }
 
-.App-link {
-  color: #61dafb;
+.oneStopLine2 {
+  color: #54595f;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+.oneStepBg {
+  background-color: #f7f8f9;
+}
+.boxForSingleData {
+  background-color: white;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxForSingleData:hover {
+  box-shadow: 1px 5px 20px gray;
 }
